@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+}
+button{
+    
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    margin :10px;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 20px;
+    border-right: 4px solid pink;
+    border-bottom: 4px solid pink;
+    
+}
+.clear{
+    background-color: rgb(255, 240, 26);
+}
+.del{
+    background-color: red;
+}
+.equal{
+    background-color: greenyellow;
+}
+.parao , .parac{
+    background-color: rgb(220, 182, 255);
+}
+.input{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(167, 167, 167);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.result{
+    font-size: 70px;
+    padding-right: 20px;
+    padding-top: 13px;
+
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
