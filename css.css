@@ -64,3 +64,10 @@ button{
     flex-direction: column;
     border-radius: 20px;
 }
+.linefour{
+    display: flex;
+    justify-content: space-between;
+}
+.linefour button {
+    flex:1;
+}
